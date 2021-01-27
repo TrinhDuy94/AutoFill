@@ -87,10 +87,10 @@ def run(x):
 
 def main():
 	global mtime
-	
-	for i in range(22,26):
+	for i in range(22,30):
 		run(i)
 		time.sleep(mtime)
+		print("finish: "+ i)
 
 
 if __name__ == '__main__':
